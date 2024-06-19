@@ -8,7 +8,7 @@ import java.net.http.HttpResponse;
 
 public class ApiClient {
 
-    private static final String API_KEY = "0d405dd956a54ee1d3cc6e97";
+    private static final String API_KEY = "tu_clave_de_api_aqui";
     private static final String BASE_URL = "https://v6.exchangerate-api.com/v6/";
 
     public String getExchangeRates(String baseCurrency) throws IOException, InterruptedException {
